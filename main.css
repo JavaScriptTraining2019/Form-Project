@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hide{
+    display: none;
+}
+
+.error{
+    color: red;
+    font-size: 2rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.myForm{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.input-holder{
+    margin-bottom: 40px; 
+}
+
+input{
+   border-color: #ddd;
+   width: 400px;
+   font-size: 1.5rem;
+   
+}
+
